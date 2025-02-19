@@ -101,7 +101,7 @@ async def goal_state(msg: Message, state: FSMContext):
         f"{ariza}:\n\n"
         f"🏅 Sherik: {fullname}\n"
         f"📚 Texnologiya: {technologies}\n"
-        f"🇺🇿 Telegram: {username}\n"
+        f"🇺🇿 Telegram: @{username}\n"
         f"📞 Aloqa: {phone_number}\n"
         f"🌐 Hudud: {location}\n"
         f"💰 Narxi: {price}\n"
