@@ -31,7 +31,7 @@ async def start(msg: Message, state: FSMContext):
 
 @router_user.message(Information.ariza)
 async def ariza_state(msg: Message, state: FSMContext):
-    await state.update_data(arize=msg.text)
+    await state.update_data(ariza=msg.text)
     await msg.answer("Hozir sizga birnecha savollar beriladi.\nHar biriga javob bering.\nOxirida agar hammasi to`g`ri bo`lsa, HA tugmasini bosing va arizangiz Adminga yuboriladi.")
     await state.set_state(Information.fullname)
     await msg.answer("Ism, familiyangizni kiriting?")
